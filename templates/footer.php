@@ -2,12 +2,12 @@
     <div class="container form-container">
         <div class="row form-row">
             <div class="col-lg-7 col-lg-offset-1 col-md-6 col-sm-6 col-xs-3">
-            <h4>Join our Newsleter</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing</p>
+            <p><span class="text-left">Join our Newsleter</span>
+                <span class="text-right">Lorem Ipsum is simply dummy text of the printing</p></span>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-3">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-3">
             <form class="form-horizontal">
-                <div class="form-group">
+                <div class="form">
                     <input type="email" class="form-control" id="email" placeholder="Enter email">
                 </div>
                 </div>
