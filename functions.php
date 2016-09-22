@@ -26,8 +26,6 @@ function register_my_menus() {
       'footer-menu-2' => __( 'Footer Menu 2' ),
       'footer-menu-3' => __( 'Footer Menu 3' ),
       'footer-menu-4' => __( 'Footer Menu 4' ),
-      'footer-menu-5' => __( 'Footer Menu 5' ),
-      'footer-menu-6' => __( 'Footer Menu 6' ),
     )
   );
 }
