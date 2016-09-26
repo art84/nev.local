@@ -19,17 +19,14 @@ $sage_includes = [
   'lib/nav.php'       // Nav walker class
 ];
 
-function register_my_menus() {
-  register_nav_menus(
-    array(
+
+  register_nav_menus( array(
       'footer-menu-1' => __( 'Footer Menu 1' ),
       'footer-menu-2' => __( 'Footer Menu 2' ),
       'footer-menu-3' => __( 'Footer Menu 3' ),
-      'footer-menu-4' => __( 'Footer Menu 4' ),
+      'footer-menu-4' => __( 'Footer Menu 4' )
     )
   );
-}
-add_action( 'init', 'register_my_menus' );
 
 foreach ($sage_includes as $file) {
   if (!$filepath = locate_template($file)) {
