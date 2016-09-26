@@ -19,31 +19,38 @@
                 </div>
             </div>
         <div class="row footer-content">
-            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                 <?php wp_nav_menu( array(
                     'theme_location' => 'footer-menu-1',
-                    'items_wrap' => '<ul><li id="item-id">Quick Link</li>%3$s</ul>',
+                    'items_wrap' => '<ul id="footer-menu"><li id="list-title">Quick Link</li>%3$s</ul>',
                     'container' => false,
                 ) ); ?>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-3">
                 <?php wp_nav_menu( array(
                     'theme_location' => 'footer-menu-2',
+                    'menu_id'  => 'footer-menu',
                     'container' => false,
                 ) ); ?>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-3">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                 <?php wp_nav_menu( array(
                     'theme_location' => 'footer-menu-3',
-                    'items_wrap' => '<ul><li id="item-id">Service Aria</li>%3$s</ul>',
+                    'items_wrap' => '<ul id="footer-menu"><li id="list-title">Service Aria</li>%3$s</ul>',
+                    'container' => false,
+                ) ); ?>
+                <?php wp_nav_menu( array(
+                    'theme_location' => 'footer-menu-4',
+                    'menu_id'  => 'footer-menu',
                     'container' => false,
                 ) ); ?>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-3">
-                <?php wp_nav_menu( array(
-                    'theme_location' => 'footer-menu-4',
-                    'container' => false,
-                ) ); ?>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                <li id="list-title">Contact us</li>
+                <h5>Please contact us anytime! We look<br>
+                    forward to hearing from you. </h5>
+                    <p><span class="number">02 9098 5180<span></p>
+                    <p><span class="email">info@craigscouriers.com.au</span></p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
             </div>
         </div>
     </div>
