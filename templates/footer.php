@@ -50,7 +50,17 @@
                     <p><span class="number">02 9098 5180<span></p>
                     <p><span class="email">info@craigscouriers.com.au</span></p>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <div class="b-corp col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                <img src="http://nev.local/wp-content/uploads/2016/09/logo-footer_03.png" alt="B Corporation Logo"
+                     class="img-responsive">
+                <div class="col-md-6 text-center">
+                    <ul class="social-network">
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
