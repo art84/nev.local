@@ -50,10 +50,10 @@
                     <p><span class="number">02 9098 5180<span></p>
                     <p><span class="email">info@craigscouriers.com.au</span></p>
             </div>
-            <div class="b-corp col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <div class="b-corp col-lg-3 col-md-6 col-sm-6 col-xs-6 pull-right">
                 <img src="http://nev.local/wp-content/uploads/2016/09/logo-footer_03.png" alt="B Corporation Logo"
                      class="img-responsive">
-                <div class="col-md-6 text-center">
+                <div class="text-center">
                     <ul class="social-network">
                         <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
@@ -61,6 +61,12 @@
                         <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
                     </ul>
                 </div>
+            </div>
+        </div>
+        <div class="row-copyright">
+            <div class="col-xs-12">
+                <p>Copyright. Craig's Couriers  All rights reserved | <a href="#">Website terms of use</a>
+                    | <a href="#">Customer terms</a> | <a href="#">policy</a> | <a href="#">Site map</a></p>
             </div>
         </div>
     </div>
