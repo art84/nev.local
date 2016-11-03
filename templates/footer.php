@@ -12,7 +12,7 @@
                     <form class="form-horizontal">
                         <div class="form">
                             <a href="">
-                            <input type="email" class="form-control" id="email" placeholder="mail Address...">
+                            <input type="email" class="form-control" id="email" placeholder="Email Address...">
                             </a>
                         </div>
                     </form>
@@ -43,14 +43,14 @@
                     'container' => false,
                 ) ); ?>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6" id="block-3">
                 <li id="list-title">Contact us</li>
                 <h5>Please contact us anytime! We look<br>
                     forward to hearing from you. </h5>
                     <p><span class="number">02 9098 5180<span></p>
                     <p><span class="email">info@craigscouriers.com.au</span></p>
             </div>
-            <div class="b-corp col-lg-3 col-md-6 col-sm-6 col-xs-6 pull-right">
+            <div class="b-corp col-lg-3 col-md-6 col-sm-6 col-xs-6" id="block-4">
                 <img src="http://nev.local/wp-content/uploads/2016/09/logo-footer_03.png" alt="B Corporation Logo"
                      class="img-responsive">
                 <div class="text-center">
