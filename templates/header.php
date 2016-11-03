@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>">
-        <img id="logo" src="http://nev.local/wp-content/uploads/2016/08/logo_03.png">
+        <img id="logo" src="http://nev.local/wp-content/uploads/2016/08/logo_03.png" class="img-responsive">
         <?php bloginfo('name'); ?></a>
       </div>
     <nav class="collapse navbar-collapse" id="main-nav">

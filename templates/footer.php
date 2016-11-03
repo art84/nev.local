@@ -4,7 +4,7 @@
                 <div class="col-md-1 col-sm-2 col-xs-2">
                     <img src="http://nev.local/wp-content/uploads/2016/09/form-group.png" alt="">
                 </div>
-                <div class="col-lg-7 col-md-8 col-sm-6 hidden-xs">
+                <div class="col-lg-6 col-md-8 col-sm-6 hidden-xs">
                     <p><span class="text-left">Join our Newsleter</span>
                         <span class="text-right">Lorem Ipsum is simply dummy text of the printing</p></span>
                 </div>
