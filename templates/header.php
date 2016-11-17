@@ -1,6 +1,6 @@
 <header class="banner navbar navbar-default">
   <div class="container header-container">
-    <div class="navbar-header">
+    <div class="navbar-header col-md-3 col-sm-2">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
@@ -8,10 +8,11 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>">
-        <img id="logo" src="http://nev.local/wp-content/uploads/2016/08/logo_03.png" class="img-responsive">
+        <img src="http://nev.local/wp-content/uploads/2016/08/logo_03.png" class="img-responsive">
         <?php bloginfo('name'); ?></a>
       </div>
-    <nav class="collapse navbar-collapse" id="main-nav">
+    <div class="">
+    <nav class="collapse navbar-collapse pull-right" id="main-nav">
       <?php
       if (has_nav_menu('primary_navigation')) :
         wp_nav_menu([
@@ -23,6 +24,7 @@
       endif;
       ?>
     </nav>
+      </div>
   </div>
   </div>
 </header>

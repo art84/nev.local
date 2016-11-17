@@ -1,125 +1,30 @@
 
-
 .navbar-default {
-  background-color:#ffffff;
+  background-color: #ffffff;
   border: none;
+  margin: 0;
 }
 
 .header-container {
-  padding: 0px;
+  padding: 0;
+  height: 90px;
 }
 
-.navbar-brand>img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  background-size: cover;
-}
-
-.navbar-brand {
-  float: left;
-  padding-top: 15px;
-  display: block;
-  height: auto;
+.navbar-header {
+  padding: 0;
 }
 
 #main-nav {
-  max-width: 100%;
-  float: right;
+  padding: 0;
 }
 
-#main-nav ul {
+#menu-main-menu {
   color: #383838;
   text-transform: uppercase;
-  padding: 15px;
   font-family: Montserrat;
   font-weight: 600;
-  font-size: 14px;
-}
-
-#main-nav li {
-  padding: 0px 5px;
-}
-
-#main-nav li.active a, {
-  background-color: transparent;
-}
-
-#main-nav li a:focus {
-  color: #ff0000;
-}
-
-#main-nav li a:hover {
-  color: #ff0000;
-}
-
-#main-nav .btn, a:hover {
-  background-color: transparent;
-}
-
-#main-nav .btn, {
-  background-color:#ff0000;
-}
-
-#main-nav .btn a, {
-  color: #ffffff;
-}
-
-#main-nav a.dropdown-toggle {
-  background-color: transparent;
-}
-
-.caret {
-  display: none;
-}
-
-.dropdown:hover .dropdown-menu {
-  display: block;
-}
-
-#main-nav .dropdown-menu {
-  position: absolute;
-  right: -10px;
-  background-color:#e30a0a;
-  padding: 5px;
-  min-width: 145px;
-  box-shadow: none;
-  border: none;
-}
-
-#main-nav .dropdown-menu>li>a:hover {
-  background-color: #000000;
-  color: #ffffff;
-}
-
-.dropdown-menu>li>a {
   font-size: 13px;
-  color: #ffffff;
-  padding: 7px 7px;
-  text-transform: none;
-}
-
-.dropdown-menu:before {
-    content:"";
-    position: absolute;
-    left: 15px;
-    top: -10px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 10px 10px 10px;
-    border-color: transparent transparent #e30a0a transparent;
-    z-index:9999;
-}
-.dropdown-menu:after {
-    content:"";
-    position: absolute;
-    left: 4px;
-    top: -22px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 17px 17px 17px;
-    border-color: transparent transparent #ffffff transparent;
-    z-index:9998;
+  li {
+    padding-top: 15px;
+  }
 }
