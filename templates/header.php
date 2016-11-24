@@ -1,6 +1,6 @@
 <header class="banner navbar navbar-default">
   <div class="container header-container">
-    <div class="navbar-header col-md-3 col-sm-2">
+    <div class="navbar-header col-md-3">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
