@@ -27,9 +27,16 @@
   li {
     padding-top: 20px;
   }
+  li.active a {
+    background-color: transparent;
+    color: #ff0000;
+  }
+  li a:hover {
+    color: #ff0000;
+  }
 }
 
-#menu-main-menu .btn-primary {
+#menu-main-menu .menu-button {
   background-color: #ff0000;
   width: 140px;
   height: 40px;
@@ -37,13 +44,59 @@
   font-family: Montserrat;
   font-weight: 600;
   font-size: 13px;
-  margin: 25px 0px;
+  margin: 25px 0;
+  border-color: transparent;
   a {
+    color: #ffffff;
     text-align: center;
-    margin-top: -27px;
+    margin-top: -25px;
+  }
+  li.active a {
+    color: #ffffff;
+  }
+  a:hover {
+    color: #ffffff;
+  }
+  @media (min-width: 1200px) {
+    margin-left: 50px;
+  }
+  @media (max-width: 992px) {
+    width: 120px;
+    height: 30px;
   }
 }
 
+.caret {
+  display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+#menu-main-menu .dropdown-menu {
+  right: -25px;
+  background-color:#e30a0a;
+  padding: 5px;
+  min-width: 145px;
+  box-shadow: none;
+  border: none;
+  li {
+    padding: 5px;
+  }
+  li a {
+    font-size: 13px;
+    color: #ffffff;
+    padding: 3px 0 3px 7px;
+    text-transform: none;
+  }
+  li a:hover {
+    background-color: #000000;
+  }
+  @media (max-width: 992px) {
+    position: static;
+  }
+}
 
 .navbar-toggle {
   padding: 15px 15px;
