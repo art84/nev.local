@@ -4,11 +4,11 @@
                 <div class="col-md-1 col-sm-2 col-xs-2">
                     <img src="http://nev.local/wp-content/uploads/2016/09/form-group.png" alt="">
                 </div>
-                <div class="col-lg-6 col-md-8 col-sm-6 hidden-xs">
+                <div class="col-lg-7 col-md-8 col-sm-6">
                     <p><span class="text-left">Join our Newsleter</span>
                         <span class="text-right">Lorem Ipsum is simply dummy text of the printing</p></span>
                 </div>
-                <div class="col-lg-4 col-md-3 col-sm-4 col-xs-9 pull-right">
+                <div class="col-lg-4 col-md-3 col-sm-4 col-xs-4 pull-right">
                     <form class="form-horizontal">
                         <div class="form">
                             <a href="">
@@ -19,7 +19,7 @@
                 </div>
             </div>
         <div class="row footer-content">
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <?php wp_nav_menu( array(
                     'theme_location' => 'footer-menu-1',
                     'items_wrap' => '<ul id="footer-menu"><li id="list-title">Quick Link</li>%3$s</ul>',
@@ -31,7 +31,7 @@
                     'container' => false,
                 ) ); ?>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <?php wp_nav_menu( array(
                     'theme_location' => 'footer-menu-3',
                     'items_wrap' => '<ul id="footer-menu"><li id="list-title">Service Aria</li>%3$s</ul>',
@@ -50,9 +50,11 @@
                     <p><span class="number">02 9098 5180<span></p>
                     <p><span class="email">info@craigscouriers.com.au</span></p>
             </div>
-            <div class="b-corp col-lg-3 col-md-6 col-sm-6 col-xs-6" id="block-4">
+            <div class="b-corp col-lg-3 col-md-6 col-sm-6 col-xs-6 " id="block-4">
+                <div class="hidden-xs">
                 <img src="http://nev.local/wp-content/uploads/2016/09/logo-footer_03.png" alt="B Corporation Logo"
                      class="img-responsive">
+                </div>
                 <div class="text-center">
                     <ul class="social-network">
                         <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
