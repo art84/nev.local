@@ -8,7 +8,7 @@
                     <p><span class="text-left">Join our Newsleter</span>
                         <span class="text-right">Lorem Ipsum is simply dummy text of the printing</p></span>
                 </div>
-                <div class="col-lg-4 col-md-3 col-sm-4 col-xs-4 pull-right">
+                <div class="col-lg-4 col-md-3 col-sm-4 col-xs-12 pull-right">
                     <form class="form-horizontal">
                         <div class="form">
                             <a href="">
@@ -28,6 +28,7 @@
                 <?php wp_nav_menu( array(
                     'theme_location' => 'footer-menu-2',
                     'menu_id'  => 'footer-menu',
+                    'menu_class' => 'menu-1',
                     'container' => false,
                 ) ); ?>
             </div>
@@ -40,6 +41,7 @@
                 <?php wp_nav_menu( array(
                     'theme_location' => 'footer-menu-4',
                     'menu_id'  => 'footer-menu',
+                    'menu_class' => 'menu-2',
                     'container' => false,
                 ) ); ?>
             </div>
