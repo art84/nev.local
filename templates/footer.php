@@ -2,7 +2,7 @@
     <div class="container footer-container">
             <div class="row form-row">
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="http://nev.local/wp-content/uploads/2016/09/form-group.png" alt="">
+                    <img src="http://nev.local/wp-content/uploads/2016/09/form-group.png" id="img-message" alt="">
                 </div>
                 <div class="col-lg-7 col-md-8 col-sm-6">
                     <p><span class="text-left">Join our Newsleter</span>
@@ -45,15 +45,15 @@
                     'container' => false,
                 ) ); ?>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6" id="block-3">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12" id="block-3">
                 <li id="list-title">Contact us</li>
                 <h5>Please contact us anytime! We look<br>
                     forward to hearing from you. </h5>
                     <p><span class="number">02 9098 5180<span></p>
                     <p><span class="email">info@craigscouriers.com.au</span></p>
             </div>
-            <div class="b-corp col-lg-3 col-md-6 col-sm-6 col-xs-6 " id="block-4">
-                <div class="hidden-xs">
+            <div class="b-corp col-lg-3 col-md-6 col-sm-6 col-xs-12" id="block-4">
+                <div class="footer-brand hidden-xs">
                 <img src="http://nev.local/wp-content/uploads/2016/09/logo-footer_03.png" alt="B Corporation Logo"
                      class="img-responsive">
                 </div>

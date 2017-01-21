@@ -23,8 +23,17 @@ footer {
   @media (min-width: 768px) {
     padding-top: 15px;
   }
+  @media (max-width: 768px) {
+    padding-top: 10px;
+  }
   p {
     padding-top: 5px;
+  }
+}
+
+#img-message {
+  @media (max-width: 320px) {
+    width: 200%;
   }
 }
 
@@ -49,6 +58,10 @@ span.text-right {
   text-align: right;
   padding-left: 20px;
   border-left: 1px solid #202020;
+  @media (max-width: 320px) {
+    font-size: 10px;
+    border-left: none;
+  }
 }
 
 .form-control {
@@ -158,8 +171,8 @@ ul.social-network {
   padding-left: 15px;
   padding-top: 37px;
   @media (max-width: 768px) {
+    padding-top: 30px;
     padding-left: 0;
-    padding-top: 65px;
   }
 }
 
