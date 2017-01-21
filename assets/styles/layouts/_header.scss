@@ -99,8 +99,7 @@
 }
 
 .dropdown:hover .dropdown-menu {
-  display: block;
-  @media (max-width: 992px) {
+  @media (min-width: 992px) {
     display: block;
   }
 }
@@ -120,12 +119,20 @@
     color: #ffffff;
     padding: 3px 0 3px 7px;
     text-transform: none;
+    @media (max-width: 992px) {
+      color: #383838;
+      padding: 3px 0 3px 5px;
+    }
   }
   li a:hover {
     background-color: #000000;
+    @media (max-width: 992px) {
+      background-color: transparent;
+    }
   }
   @media (max-width: 992px) {
     position: static;
+    background-color: white;
   }
 }
 
