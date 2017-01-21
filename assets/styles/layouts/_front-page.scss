@@ -15,8 +15,9 @@
 
 #banner-container {
   width: 100%;
-  height: 483px;
+  height: auto;
   background: url('http://nev.local/wp-content/uploads/2016/10/banner_02.jpg');
+  background-size: cover;
 }
 
 .home-container {
@@ -25,6 +26,9 @@
 
 .banner-content {
   padding: 70px 0;
+  @media (max-width: 768px) {
+    padding: 20px 0;
+  }
 }
 
 .container-fluid h1 {
@@ -62,6 +66,9 @@
     border: 0;
     color: #ffffff;
   }
+  @media (max-width: 768px) {
+    padding-top: 0;
+  }
 }
 
 .btn-primary {
@@ -72,6 +79,9 @@
   border: 2px solid;
   width: 175px;
   height: 50px;
+  @media (max-width: 320px) {
+    margin-top: 10px;
+  }
 }
 
 .section-2 {
