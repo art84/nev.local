@@ -1,0 +1,36 @@
+#about-container {
+  width: 100%;
+  min-height: 180px;
+  background: url('http://nev.local/wp-content/uploads/2017/01/about-us_baner.png');
+  background-size: cover;
+  @media (max-width: 992px) {
+    min-height: inherit;
+  }
+}
+
+.about-container h1 {
+  padding-top: 40px;
+  font-size: 49px;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  @media (max-width: 320px) {
+    font-size: 46px;
+  }
+}
+
+.text-container {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  .text1, .text2, .text3, .text4 {
+    font-size: 14px;
+    font-family: Poppins;
+    color: #666666;
+    font-weight: 400;
+    padding-top: 20px;
+  }
+  .text1 a {
+    color: red;
+  }
+}
