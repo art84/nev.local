@@ -67,8 +67,8 @@
                         <p>We often get calls which go like this 'Can we<br>
                             book today and get it delivered today?' YES<br>
                             that's exactly what we do :)</p>
-                    </div>
                 </a>
+                    </div>
                 <a href="">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 block2">
                         <img src="http://nev.local/wp-content/uploads/2016/11/img.block2_.png">
