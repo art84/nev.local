@@ -49,7 +49,7 @@
                 <li id="list-title">Contact us</li>
                 <h5>Please contact us anytime! We look<br>
                     forward to hearing from you. </h5>
-                    <p><span class="number">02 9098 5180<span></p>
+                    <p><span class="number">02 9098 5180</span></p>
                     <p><span class="email">info@craigscouriers.com.au</span></p>
             </div>
             <div class="b-corp col-lg-3 col-md-6 col-sm-6 col-xs-12" id="block-4">
