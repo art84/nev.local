@@ -60,16 +60,13 @@
     <div class="section-3">
         <div class="container">
             <div class="row">
-                <a href="">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 block1">
                         <img src="http://nev.local/wp-content/uploads/2016/11/img.block1_-1.png">
                         <h5 class="link-box-title">Fast Courier Service</h5>
                         <p>We often get calls which go like this 'Can we<br>
                             book today and get it delivered today?' YES<br>
                             that's exactly what we do :)</p>
-                </a>
                     </div>
-                <a href="">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 block2">
                         <img src="http://nev.local/wp-content/uploads/2016/11/img.block2_.png">
                         <h5 class="link-box-title">Sydney Courier</h5>
@@ -78,8 +75,6 @@
                             Parramatta, Hornsby, Northern Beaches,<br>
                             Eastern Suburbs and many more</p>
                     </div>
-                </a>
-                <a href="">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 block3">
                             <img src="http://nev.local/wp-content/uploads/2016/11/img.block3_.png">
                             <h5 class="link-box-title">Insurance</h5>
@@ -88,7 +83,6 @@
                                 so much that we self insure your goods<br>
                                 up to the value of $300.</p>
                 </div>
-                </a>
             </div>
         </div>
     </div>
