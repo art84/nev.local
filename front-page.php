@@ -27,7 +27,7 @@
     <div class="section-2">
         <div class="container">
             <div class="col-lg-5 col-md-4 col-sm-5 col-xs-12">
-                <img src="http://nev.local/wp-content/uploads/2016/11/banner_03.png" alt=""
+                <img src="http://nev.local/wp-content/uploads/2016/11/banner_03.png" alt="img-mobile"
                      class="img-responsive">
             </div>
             <div class="text col-lg-7 col-md-8 col-sm-7 col-xs-12">
@@ -61,14 +61,14 @@
         <div class="container">
             <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 block1">
-                        <img src="http://nev.local/wp-content/uploads/2016/11/img.block1_-1.png">
+                        <img src="http://nev.local/wp-content/uploads/2016/11/img.block1_-1.png" alt="img-clock">
                         <h5 class="link-box-title">Fast Courier Service</h5>
                         <p>We often get calls which go like this 'Can we<br>
                             book today and get it delivered today?' YES<br>
                             that's exactly what we do :)</p>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 block2">
-                        <img src="http://nev.local/wp-content/uploads/2016/11/img.block2_.png">
+                        <img src="http://nev.local/wp-content/uploads/2016/11/img.block2_.png" alt="img-map">
                         <h5 class="link-box-title">Sydney Courier</h5>
                         <p>We can deliver your parcel all around Sydney.<br>
                             We cover areas as far as Campbelltown,<br>
@@ -76,7 +76,7 @@
                             Eastern Suburbs and many more</p>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 block3">
-                            <img src="http://nev.local/wp-content/uploads/2016/11/img.block3_.png">
+                            <img src="http://nev.local/wp-content/uploads/2016/11/img.block3_.png" alt="img-umbrella">
                             <h5 class="link-box-title">Insurance</h5>
                             <p>Are you used to courier companies who don't<br>
                                 care about your goods? We care! We care<br>

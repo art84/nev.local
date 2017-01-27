@@ -9,7 +9,8 @@
               </button>
             <div class="col-xs-8 col-sm-8 col-md-12 col-lg-12">
               <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>">
-                <img src="http://nev.local/wp-content/uploads/2016/08/logo_03.png" class="img-responsive">
+                <img src="http://nev.local/wp-content/uploads/2016/08/logo_03.png" alt="A Corporation Logo"
+                     class="img-responsive">
                 <?php bloginfo('name'); ?>
               </a>
             </div>

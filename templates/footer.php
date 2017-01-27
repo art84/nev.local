@@ -2,7 +2,7 @@
     <div class="container footer-container">
             <div class="row form-row">
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="http://nev.local/wp-content/uploads/2016/09/form-group.png" id="img-message" alt="">
+                    <img src="http://nev.local/wp-content/uploads/2016/09/form-group.png" id="img-message" alt="img-message">
                 </div>
                 <div class="col-lg-7 col-md-8 col-sm-6">
                     <p><span class="text-left">Join our Newsleter</span>

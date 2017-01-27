@@ -18,21 +18,21 @@ Template Name: contact_us_page
             <div class="row contact-us">
                 <div class="col-md-3 email-2">
                     <div class="foto-icons-email">
-                        <img src="http://nev.local/wp-content/uploads/2017/01/contact_email.png">
+                        <img src="http://nev.local/wp-content/uploads/2017/01/contact_email.png" alt="img-contact-email">
                     </div>
                     <p><span class="info1">Email</span></p>
                     <p><span class="info2">hello@zoom2u.com</span></p>
                 </div>
                 <div class="col-md-3 phone">
                     <div class="foto-icons">
-                        <img src="http://nev.local/wp-content/uploads/2017/01/contact_phone.png">
+                        <img src="http://nev.local/wp-content/uploads/2017/01/contact_phone.png" alt="img-contact-phone">
                     </div>
                     <p><span class="info1">Phone</span></p>
                     <p><span class="info2">+61 2 9098 5100</span></p>
                 </div>
                 <div class="col-md-6 address">
                     <div class="foto-icons">
-                        <img src="http://nev.local/wp-content/uploads/2017/01/contact_3.png">
+                        <img src="http://nev.local/wp-content/uploads/2017/01/contact_3.png" alt="img-contact-address">
                     </div>
                     <p><span class="info1">Office Address</span></p>
                     <p><span class="info2">hSuite 102, 221 Miller St North Sydney NSW, 2060 Australia</span></p>
